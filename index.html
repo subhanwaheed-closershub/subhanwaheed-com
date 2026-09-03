@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subhan Waheed</title>
+<meta name="description" content="Subhan Waheed, sales leader and GTM engineer. Connect on LinkedIn or book a call.">
+<link rel="canonical" href="https://subhanwaheed.com/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://subhanwaheed.com/">
+<meta property="og:title" content="Subhan Waheed">
+<meta property="og:description" content="Sales leader and GTM engineer. Connect on LinkedIn or book a call.">
+<!-- The picture people see when this link is shared on LinkedIn, WhatsApp, Slack or X.
+     It must be a full https address, not a relative one, or nothing shows. -->
+<meta property="og:image" content="https://subhanwaheed.com/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Subhan Waheed, sales leader and GTM engineer, subhanwaheed.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Subhan Waheed">
+<meta name="twitter:description" content="Sales leader and GTM engineer. Connect on LinkedIn or book a call.">
+<meta name="twitter:image" content="https://subhanwaheed.com/share-card.png">
+<!-- The little icon in the browser tab. -->
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff; --surface:#f6f7f9; --ink:#12161c; --body:#414855; --muted:#6b7280;
+    --line:#e4e7ec; --accent:#0A6E0A; --accent-ink:#ffffff; --radius:12px;
+    --accent-soft:rgba(10,110,10,.08); --accent-border:rgba(10,110,10,.24);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0e1116; --surface:#161b22; --ink:#f0f3f7; --body:#c2c9d4; --muted:#8b95a5;
+           --line:#262d38; --accent:#7CE04A; --accent-ink:#06240A;
+           --accent-soft:rgba(124,224,74,.12); --accent-border:rgba(124,224,74,.30); }
+  }
+  :root[data-theme="dark"]{ --bg:#0e1116; --surface:#161b22; --ink:#f0f3f7; --body:#c2c9d4;
+           --muted:#8b95a5; --line:#262d38; --accent:#7CE04A; --accent-ink:#06240A;
+           --accent-soft:rgba(124,224,74,.12); --accent-border:rgba(124,224,74,.30); }
+  :root[data-theme="light"]{ --bg:#ffffff; --surface:#f6f7f9; --ink:#12161c; --body:#414855;
+           --muted:#6b7280; --line:#e4e7ec; --accent:#0A6E0A; --accent-ink:#ffffff;
+           --accent-soft:rgba(10,110,10,.08); --accent-border:rgba(10,110,10,.24); }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--body);line-height:1.65;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.offer-name{font-family:'Space Grotesk','DM Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .wrap{max-width:680px;margin:0 auto;padding:0 20px}
+  h1{color:var(--ink);font-size:clamp(1.7rem,5vw,2.2rem);line-height:1.2;letter-spacing:-.02em}
+  h2{color:var(--ink);font-size:1.15rem;margin-bottom:.6rem;letter-spacing:-.01em}
+  h3{color:var(--ink);font-size:.98rem;margin:1.2rem 0 .35rem}
+  p{margin-bottom:.9rem}
+  a{color:var(--accent)}
+  ul{margin:0 0 .9rem 1.1rem}
+  li{margin-bottom:.4rem}
+
+  header{padding:56px 0 8px}
+  .profile{display:flex;align-items:center;gap:24px}
+  .profile-text{min-width:0}
+  .avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:center top;
+       border:3px solid var(--accent);background:var(--surface);flex-shrink:0;
+       box-shadow:0 8px 22px rgba(10,110,10,.20)}
+  @media (max-width:520px){
+    .profile{flex-direction:column;align-items:flex-start;gap:16px}
+    .avatar{width:104px;height:104px}
+  }
+  .tag{display:inline-block;font-size:.75rem;letter-spacing:.07em;text-transform:uppercase;
+       color:var(--muted);margin-bottom:12px}
+  .intro{font-size:1.05rem;margin-top:14px}
+
+  .actions{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 8px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:1rem;
+       font-weight:600;padding:13px 22px;border-radius:var(--radius);text-decoration:none;
+       transition:transform .14s ease,opacity .2s ease;border:1.5px solid transparent}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-primary{background:var(--accent);color:var(--accent-ink);box-shadow:0 8px 20px rgba(10,110,10,.22)}
+  .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+  .btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+  section{padding:30px 0;border-top:1px solid var(--line);margin-top:34px}
+  .policy{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+          padding:24px;margin-top:18px}
+  .policy p,.policy li{font-size:.94rem}
+  .updated{color:var(--muted);font-size:.85rem;margin-bottom:1rem}
+  footer{padding:26px 0 60px;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line);margin-top:34px}
+  code{background:var(--surface);border:1px solid var(--line);padding:1px 6px;border-radius:5px;font-size:.9em}
+  .policy-details{margin:0}
+  .policy-summary{cursor:pointer;list-style:none;color:var(--ink);font-size:1.15rem;font-weight:600;
+       letter-spacing:-.01em;display:flex;align-items:center;gap:10px;padding:4px 0}
+  .policy-summary::-webkit-details-marker{display:none}
+  .policy-summary::before{content:"›";display:inline-block;color:var(--accent);font-weight:700;
+       font-size:1.3rem;line-height:1;transition:transform .2s ease}
+  details[open] .policy-summary::before{transform:rotate(90deg)}
+  .policy-summary:hover{color:var(--accent)}
+  /* FOLLOW GRID, rebuilt 2026-09-03 on his instruction: "all socials are present, and all socials
+     are highlighted and presented in an attractive way". It replaces a single highlighted LinkedIn
+     button plus four small unlabelled icon circles - that layout ranked one network above the rest
+     and left three profiles off the page entirely.
+     FLEX-WRAP WITH A CENTRED LAST ROW, not a fixed grid, and that is the load-bearing choice: with
+     an odd count a grid leaves a visibly empty cell, which he has now objected to twice. Centring
+     the final row reads as deliberate at any number of cards. Eight today, filling two rows of
+     four exactly, and still correct if one is added or removed.
+     Every card carries a visible LABEL as well as an icon: icon-only links are a known
+     discoverability and screen-reader failure, and the old circles had no text at all. */
+  .follow{margin-top:26px}
+  .follow-label{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);
+       margin-bottom:12px}
+  .socials{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-start}
+  /* flex-basis is a quarter minus the gap, so four sit per row at full width and the wrap point
+     falls back to three then two as the column narrows. min-width keeps the handle readable. */
+  .social{flex:0 1 calc(25% - 8px);min-width:148px;
+       display:flex;align-items:center;gap:11px;padding:11px 13px;
+       border:1.5px solid var(--line);border-radius:var(--radius);background:var(--surface);
+       color:var(--body);text-decoration:none;
+       transition:border-color .2s ease,transform .18s ease,background-color .2s ease}
+  .social:hover{border-color:var(--accent);transform:translateY(-2px);background:var(--accent-soft)}
+  .social:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .social-icon{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;
+       width:34px;height:34px;border-radius:9px;background:var(--bg);border:1px solid var(--line);
+       color:var(--muted);transition:color .2s ease,border-color .2s ease}
+  .social:hover .social-icon{color:var(--accent);border-color:var(--accent-border)}
+  .social svg{width:18px;height:18px;fill:currentColor}
+  .social-text{min-width:0;line-height:1.25}
+  .social-name{display:block;font-weight:600;color:var(--ink);font-size:.92rem}
+  .social-handle{display:block;font-size:.78rem;color:var(--muted);
+       overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  @media (max-width:620px){ .social{flex:0 1 calc(50% - 5px);min-width:0} }
+  /* The lift is decoration, so it goes when the system asks for less motion. The colour change
+     stays, because that is the only cue that the card is interactive. */
+  @media (prefers-reduced-motion: reduce){
+    .social{transition:border-color .2s ease,background-color .2s ease}
+    .social:hover{transform:none}
+  }
+
+  .offers{padding:36px 0 10px;border-top:1px solid var(--line);margin-top:38px}
+  .offers h2{margin-bottom:4px}
+  .offers .sub{color:var(--muted);font-size:.92rem;margin-bottom:22px}
+  /* Three offers, and the page reads at 680px - right for prose, but it squeezes three cards to
+     about 200px each and the text goes to mush. So on screens with room to spare, the offers
+     heading and cards step outside that column together and the cards keep their normal width.
+     The section's own divider stays at page width, matching every other divider on the page.
+     Narrower than that it is two across, and on a phone one. */
+  .offers-grid{display:grid;grid-template-columns:1fr;gap:16px}
+  @media (min-width:600px){.offers-grid{grid-template-columns:repeat(2,1fr)}}
+  @media (min-width:1000px){
+    .offers h2,.offers .sub,.offers-grid{
+      width:min(940px,calc(100vw - 40px));margin-left:50%;transform:translateX(-50%)}
+    /* TWO columns, and with four offers that is a filled 2x2 - no empty cell at any width, which
+       he has objected to twice. It was three columns when there were three offers; the count
+       changed twice on 2026-09-03 (down to two, then back to four in his stated order: Ship With
+       Claude, ClosersHub App, ClosersHub, Paid Consultation).
+       Deliberately NOT four across: the container is 940px, so four columns give ~235px each and
+       the descriptions turn to mush - the same squeeze the comment above this block describes.
+       THE RULE, so the next change does not have to rediscover it: pick the column count that
+       divides the number of offers exactly. Two columns suit 2 or 4; three suit 3 or 6. */
+    .offers-grid{grid-template-columns:repeat(2,1fr)}
+  }
+  .offer{display:flex;flex-direction:column;gap:9px;padding:22px;border:1px solid var(--line);
+       border-radius:16px;background:var(--surface);color:inherit;text-decoration:none;
+       transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+  .offer:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 14px 32px rgba(10,110,10,.13)}
+  .offer:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  .offer-price{align-self:flex-start;font-family:'Space Grotesk',monospace;font-size:.76rem;font-weight:600;
+       letter-spacing:.02em;color:var(--accent);background:var(--accent-soft);border:1px solid var(--accent-border);
+       padding:4px 11px;border-radius:999px;font-variant-numeric:tabular-nums}
+  .offer-name{font-size:1.12rem;color:var(--ink);margin-top:2px}
+  .offer-desc{font-size:.92rem;color:var(--body);flex:1;margin:0}
+  .offer-go{font-size:.9rem;font-weight:600;color:var(--accent);display:inline-flex;align-items:center;gap:6px;margin-top:2px}
+  .offer-go .arrow{transition:transform .2s ease}
+  .offer:hover .offer-go .arrow{transform:translateX(4px)}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <div class="profile">
+      <img class="avatar" src="subhan.png" alt="Subhan Waheed" width="120" height="120">
+      <div class="profile-text">
+        <span class="tag">Personal site</span>
+        <h1>Subhan Waheed</h1>
+        <p class="intro">I'm a sales leader and GTM engineer.
+           The quickest ways to reach me are below.</p>
+      </div>
+    </div>
+
+    <!-- The two header buttons that used to sit here are both gone, on his instructions:
+         "Connect on LinkedIn" because singling out one network is exactly what he asked to stop
+         ("it's highlighting just my LinkedIn"), and LinkedIn now sits in the grid below as a peer;
+         and "Book a call", which pointed at https://book.subhanwaheed.com, whose root lists a
+         "30mins" event with "price":0 alongside the paid one - checked live rather than assumed.
+         Paid booking is still reachable from the Paid Consultation card further down, which links
+         straight to /s-w/paidconsultation. Do not restore a general booking link here. -->
+
+    <div class="follow">
+      <p class="follow-label">Follow me</p>
+      <div class="socials">
+      <!-- Handles verified live rather than assumed: each profile URL was fetched and its page
+           title checked for his name, with a deliberately invented handle as a control that
+           correctly returned a logged-out page. Brand glyphs are the official simple-icons paths,
+           fetched rather than typed from memory - a mistyped path renders as garbage. -->
+      <a class="social" href="https://www.linkedin.com/in/subhanwaheedai/" target="_blank" rel="noopener">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>
+        <span class="social-text"><span class="social-name">LinkedIn</span><span class="social-handle">@subhanwaheedai</span></span>
+      </a>
+      <!-- The company page sits next to the personal profile deliberately: two cards both reading
+           just "LinkedIn" would be indistinguishable, so this one is named "LinkedIn Page" and its
+           second line says "Company page" in plain words rather than repeating the handle.
+           URL supplied by him and verified live: it returns 200 with "Subhan Waheed | LinkedIn" as
+           the page title, while an invented company slug correctly returns 404. -->
+      <a class="social" href="https://www.linkedin.com/company/subhanwaheedai/" target="_blank" rel="noopener">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>
+        <span class="social-text"><span class="social-name">LinkedIn Page</span><span class="social-handle">Company page</span></span>
+      </a>
+      <a class="social" href="https://www.youtube.com/@subhanwaheedai" target="_blank" rel="noopener">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></span>
+        <span class="social-text"><span class="social-name">YouTube</span><span class="social-handle">@subhanwaheedai</span></span>
+      </a>
+      <a class="social" href="https://www.instagram.com/subhanwaheedai/" target="_blank" rel="noopener">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163C8.741 0 8.332.014 7.052.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg></span>
+        <span class="social-text"><span class="social-name">Instagram</span><span class="social-handle">@subhanwaheedai</span></span>
+      </a>
+      <a class="social" href="https://x.com/subhanwaheedai" target="_blank" rel="noopener">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></span>
+        <span class="social-text"><span class="social-name">X</span><span class="social-handle">@subhanwaheedai</span></span>
+      </a>
+      <a class="social" href="https://www.threads.com/@subhanwaheedai" target="_blank" rel="noopener">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"/></svg></span>
+        <span class="social-text"><span class="social-name">Threads</span><span class="social-handle">@subhanwaheedai</span></span>
+      </a>
+      <a class="social" href="https://www.tiktok.com/@subhanwaheedai" target="_blank" rel="noopener">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></span>
+        <span class="social-text"><span class="social-name">TikTok</span><span class="social-handle">@subhanwaheedai</span></span>
+      </a>
+      <a class="social" href="https://www.facebook.com/subhanwaheedai/" target="_blank" rel="noopener">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></span>
+        <span class="social-text"><span class="social-name">Facebook</span><span class="social-handle">@subhanwaheedai</span></span>
+      </a>
+      
+      </div>
+    </div>
+
+  </header>
+
+  <section class="offers" id="offers">
+    <h2>Ways to work with me</h2>
+    <p class="sub">A few ways to work together, from a ready-made kit to an hour of my time.</p>
+    <div class="offers-grid">
+      <!-- To add an offer later, copy one <a class="offer"> ... </a> block and edit the 4 parts: link, price, name, description. -->
+      <!-- POINTS AT THE FUNNEL, NOT THE CHECKOUT - his instruction 2026-09-03. This used to go
+           straight to the Lemon Squeezy checkout, which skipped the opt-in gate entirely, so a
+           visitor who was not ready to buy left no trace and could never be emailed.
+           ?src=site-bio is what makes this traffic countable: reports 10 and 11 roll it up under
+           the platform "site" (everything before the first dash), keeping it separate from the
+           social profiles. An untagged link here would file for ever as "direct".
+           The old checkout URL is deliberately not kept as a comment - it is one paste away from
+           being restored by mistake, and the funnel's own buy button is the only route now. -->
+      <a class="offer" href="https://claude.subhanwaheed.com/?src=site-bio" target="_blank" rel="noopener">
+        <span class="offer-price">$27</span>
+        <h3 class="offer-name">Ship With Claude</h3>
+        <p class="offer-desc">A plug-and-play Claude Code setup kit: the exact config, commands, and workflow I use to start shipping fast.</p>
+        <span class="offer-go">Get the kit <span class="arrow">&rarr;</span></span>
+      </a>
+      <!-- ClosersHub App: REMOVED earlier on 2026-09-03 ("remove LinkedIn agent card"), then asked
+           for again the same day in his four-card order. Restored deliberately, and pointing at the
+           app itself rather than the old /waitlist path he had it on before.
+           Both destinations were fetched before being written about, not assumed: this one returns
+           200 titled "ClosersHub | Your LinkedIn, run every day by your own AI agent", and the page
+           still mentions a waitlist, which is why the badge says Coming soon. If it has launched,
+           that badge is the one thing to change. -->
+      <a class="offer" href="https://app.closershub.com" target="_blank" rel="noopener">
+        <span class="offer-price">Coming soon</span>
+        <h3 class="offer-name">ClosersHub App</h3>
+        <p class="offer-desc">An AI agent that runs your LinkedIn for you, posting every day so you stay visible without doing the work.</p>
+        <span class="offer-go">See the app <span class="arrow">&rarr;</span></span>
+      </a>
+      <!-- ClosersHub: his words, "my website where we can say Hire Me To Build Your GTM System".
+           Fetched: 200, titled "ClosersHub | B2B Lead Gen System: Cold Email & LinkedIn", and its
+           own description says he builds and runs automated B2B lead gen with cold email, LinkedIn
+           and AI agents. The wording below is drawn from that rather than invented.
+           ⚠️ THE BADGE IS DOING REAL WORK HERE. This card and Paid Consultation below both mean
+           "hire me for go-to-market help", and a visitor who cannot tell them apart picks neither.
+           "Done for you" against "$50 / hour" is what separates them at a glance: I build and run
+           it, versus one hour of my time. Do not change one badge without checking the other still
+           contrasts with it. -->
+      <a class="offer" href="https://closershub.com" target="_blank" rel="noopener">
+        <span class="offer-price">Done for you</span>
+        <h3 class="offer-name">ClosersHub</h3>
+        <p class="offer-desc">Hire me to build your GTM system: cold email, LinkedIn and AI agents, set up and running for you.</p>
+        <span class="offer-go">See how it works <span class="arrow">&rarr;</span></span>
+      </a>
+      <a class="offer" href="https://book.subhanwaheed.com/s-w/paidconsultation" target="_blank" rel="noopener">
+        <span class="offer-price">$50 / hour</span>
+        <h3 class="offer-name">Paid Consultation</h3>
+        <p class="offer-desc">An hour on your business: AI agents, lead generation, go-to-market and sales. Bring the problem, leave with a plan.</p>
+        <span class="offer-go">Book a call <span class="arrow">&rarr;</span></span>
+      </a>
+    </div>
+  </section>
+
+  <section id="anti-spam">
+   <details class="policy-details">
+    <summary class="policy-summary">Anti-spam and acceptable use policy</summary>
+    <p>This page is published so anyone, including blocklist operators and abuse desks, can see
+       exactly how this domain is used and how to reach me about it.</p>
+
+    <div class="policy">
+      <p class="updated">Last updated: 3 September 2026</p>
+
+      <h3>Who operates this domain</h3>
+      <p><code>subhanwaheed.com</code> is operated by Subhan Waheed as a personal site.
+         Contact: <a href="mailto:subhanwaheed@closershub.com">subhanwaheed@closershub.com</a></p>
+
+      <h3>What this domain is used for</h3>
+      <p>Two things only: a link to my LinkedIn profile, and my personal booking page at
+         <code>book.subhanwaheed.com</code>. That is the whole of it.</p>
+      <p><strong>No email is sent from this domain for marketing, outreach, or bulk purposes.</strong>
+         It hosts no offers, no landing pages, and no redirects into marketing funnels.</p>
+
+      <h3>Business email I do send</h3>
+      <p>I run business-to-business outreach, and I want to be straightforward about it rather than
+         hide it. That mail is sent from separate dedicated domains, never from this one. Wherever I
+         send it, it follows the same rules:</p>
+      <ul>
+        <li>Contact data comes from licensed B2B data providers. Never from scraping, harvesting,
+            or bulk address lists bought from brokers.</li>
+        <li>Truthful sender identity and subject lines. No forged or deceptive headers.</li>
+        <li>A real, monitored reply-to address on every message.</li>
+        <li>A clear way to opt out in every message.</li>
+        <li>Opt-outs honoured within 24 hours, permanently, with no confirmation step and no
+            required wording. Someone asking to stop, in any form, is enough.</li>
+        <li>Anyone who opts out goes on a permanent suppression list and is never contacted again
+            from any domain I operate.</li>
+      </ul>
+
+      <!-- This section is REQUIRED WORDING, not decoration. SURBL's removal form (field 11) asks for
+           a published policy prohibiting this web site from being ADVERTISED using unsolicited
+           messages "by all senders, including affiliates, third parties, and you", and states
+           outright that a privacy policy is not sufficient unless it says exactly that. The policy
+           above this line only covers mail sent FROM the domain, which is the opposite direction,
+           so it did not satisfy the field. Added 2026-09-03 while getting subhanwaheed.com removed
+           from SURBL's ABUSE list. Do not delete or soften it. -->
+      <h3>Unsolicited email policy</h3>
+      <p>This website must not be advertised using unsolicited bulk or commercial email, by me or by
+         anyone acting on my behalf, including affiliates, resellers and any third party. Messages
+         referencing <code>subhanwaheed.com</code> may only be sent to recipients with a prior
+         business relationship or who have explicitly requested contact. Advertising this website
+         through unsolicited messages is prohibited, and any sender doing so is acting without
+         authorisation.</p>
+
+      <h3>Reporting abuse</h3>
+      <p>If you believe this domain, or any message referencing it, has been used abusively, email
+         <a href="mailto:subhanwaheed@closershub.com">subhanwaheed@closershub.com</a>. I read every report
+         and reply within two business days. Confirmed abuse means the sending identity involved is
+         shut off immediately.</p>
+
+      <h3>Compliance</h3>
+      <p>I operate in line with the CAN-SPAM Act, and with GDPR and PECR where they apply, including
+         honouring opt-out and erasure requests.</p>
+
+      <h3>Changes</h3>
+      <p>Any material change to this policy is recorded here with the date above.</p>
+    </div>
+   </details>
+  </section>
+
+  <footer>
+    <p>© 2026 Subhan Waheed · <a href="mailto:subhanwaheed@closershub.com">subhanwaheed@closershub.com</a></p>
+  </footer>
+
+</div>
+
+<script>
+  // If someone deep-links to the policy (e.g. a blocklist reviewer via #anti-spam),
+  // open the collapsed section automatically so it is visible without a click.
+  if (location.hash === '#anti-spam') {
+    var d = document.querySelector('.policy-details');
+    if (d) d.open = true;
+  }
+</script>
+
+</body>
+</html>
